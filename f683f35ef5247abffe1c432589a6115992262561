@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a7fa997_9954bfcb",
+        "filename": "single-node-job/openembedded/opkg-deps-installation.json",
+        "patchSetId": 1
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1000006
+      },
+      "writtenOn": "2015-03-17T08:42:47Z",
+      "side": 1,
+      "message": "Macros are used so that the functional tests can be collated:\n\n  \"server\": \"LAVA_SERVER\",\n   \"stream\": \"BUNDLE_STREAM\"\n\ne.g. https://git.linaro.org/lava-team/lava-functional-tests.git/blob/HEAD:/single-node-job/master/master-arndale-octa-read-boot-cmds-from-image-ubuntu-lava-test-shell.json",
+      "revId": "f683f35ef5247abffe1c432589a6115992262561",
+      "serverId": "f33910f19b7abb192b83adbd000000bf",
+      "unresolved": false
+    }
+  ]
+}
