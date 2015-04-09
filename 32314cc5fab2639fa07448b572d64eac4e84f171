@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a7ca5a3_89a0e9f5",
+        "filename": "single-node-job/openembedded/opkg-deps-installation.json",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1000006
+      },
+      "writtenOn": "2015-04-09T08:53:56Z",
+      "side": 1,
+      "message": "Functional tests should try to avoid using people.linaro.org and host files which others can update, e.g. images.validation.linaro.org/functional-test-images/ There are already files in a panda directory there, please test with the uImage already available - the dtb can be added, as can the rootfs - although it is also worth testing with one of the files in the common/ directory.",
+      "revId": "32314cc5fab2639fa07448b572d64eac4e84f171",
+      "serverId": "f33910f19b7abb192b83adbd000000bf",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a7ca5a3_29a51504",
+        "filename": "single-node-job/openembedded/opkg-deps-installation.json",
+        "patchSetId": 2
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1000006
+      },
+      "writtenOn": "2015-04-09T08:53:56Z",
+      "side": 1,
+      "message": "This should be a file on images.validation.linaro.org or in the test definition - the repository itself can also be hosted there, in an oe directory.",
+      "revId": "32314cc5fab2639fa07448b572d64eac4e84f171",
+      "serverId": "f33910f19b7abb192b83adbd000000bf",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a7ca5a3_49aad1d5",
+        "filename": "single-node-job/openembedded/opkg-deps-installation.json",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1000006
+      },
+      "writtenOn": "2015-04-09T08:53:56Z",
+      "side": 1,
+      "message": "Please add this file to this review and reference it within the functional-tests repo.",
+      "revId": "32314cc5fab2639fa07448b572d64eac4e84f171",
+      "serverId": "f33910f19b7abb192b83adbd000000bf",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a7ca5a3_e9ae3de7",
+        "filename": "single-node-job/openembedded/opkg-deps-installation.json",
+        "patchSetId": 2
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1000006
+      },
+      "writtenOn": "2015-04-09T08:53:56Z",
+      "side": 1,
+      "message": "As with opkg-yes, this YAML should be added to this review.",
+      "revId": "32314cc5fab2639fa07448b572d64eac4e84f171",
+      "serverId": "f33910f19b7abb192b83adbd000000bf",
+      "unresolved": false
+    }
+  ]
+}
