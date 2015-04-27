@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "3a79b1b5_0ed85fee",
+        "filename": "single-node-job/qemu/qemu-aarch64-kernel-boot.json",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1000022
+      },
+      "writtenOn": "2015-04-27T18:48:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a79b1b5_6ec79313",
+      "revId": "2fb69ecfa91375d66690f09802aed0b0bc828744",
+      "serverId": "f33910f19b7abb192b83adbd000000bf",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a79b1b5_8ecc6f37",
         "filename": "single-node-job/qemu/qemu-aarch64-prebuilt-boot.json",
         "patchSetId": 1
@@ -36,6 +54,24 @@
     },
     {
       "key": {
+        "uuid": "3a79b1b5_cee1079c",
+        "filename": "single-node-job/qemu/qemu-aarch64-prebuilt-boot.json",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1000022
+      },
+      "writtenOn": "2015-04-27T18:48:41Z",
+      "side": 1,
+      "message": "This test works along with a pflash, since the information to load the kernel will be provided via boot_cmds and stored in the pflash. Will remove it now and add it back, once we have pflash support in.",
+      "parentUuid": "3a79b1b5_8ecc6f37",
+      "revId": "2fb69ecfa91375d66690f09802aed0b0bc828744",
+      "serverId": "f33910f19b7abb192b83adbd000000bf",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a79b1b5_2ed19bcd",
         "filename": "single-node-job/qemu/qemu-aarch64-uefi-boot.json",
         "patchSetId": 1
@@ -47,6 +83,24 @@
       "writtenOn": "2015-04-27T18:30:11Z",
       "side": 1,
       "message": "Needs a test shell as part of the test: https://staging.validation.linaro.org/scheduler/job/125581/definition",
+      "revId": "2fb69ecfa91375d66690f09802aed0b0bc828744",
+      "serverId": "f33910f19b7abb192b83adbd000000bf",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a79b1b5_4eedf78a",
+        "filename": "single-node-job/qemu/qemu-aarch64-uefi-boot.json",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1000022
+      },
+      "writtenOn": "2015-04-27T18:48:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a79b1b5_2ed19bcd",
       "revId": "2fb69ecfa91375d66690f09802aed0b0bc828744",
       "serverId": "f33910f19b7abb192b83adbd000000bf",
       "unresolved": false
